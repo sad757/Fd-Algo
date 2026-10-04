@@ -1,0 +1,21 @@
+# Бинарные файлы (только внутри Lab*/task*/)
+Lab*/task*/task[0-9]
+Lab*/task*/task[0-9][0-9]
+*.o
+*.out
+
+# Выходные файлы тестов
+out_*
+*.log
+
+# VS Code
+.vscode/
+
+# ОС
+.DS_Store
+Thumbs.db
+
+# Файлы, генерируемые при тестировании
+Lab1/task04/*.txt
+Lab1/task07/*.txt
+Lab1/task08/*.txt
